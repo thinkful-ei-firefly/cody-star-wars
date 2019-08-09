@@ -1,0 +1,13 @@
+.search-app{
+  display: flex;
+  color: white;
+  background-color: black;
+  flex-direction: column;
+  text-align: center;
+}
+
+.search-app header{
+  justify-content: center;
+  padding: 20px;
+}
+
