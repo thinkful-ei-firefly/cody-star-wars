@@ -42,7 +42,7 @@ class SearchBar extends React.Component {
       <div className="search-bar">
         <form onSubmit={this.handleSubmit}>
           <label htmlFor="type">Type</label>
-          <select id="type" onChange={this.handleChange} required>
+          <select id="type" onChange={this.handleChange} defaultValue='people' required>
             {this.renderFolderDropDown()}
           </select>
 
